@@ -19,18 +19,6 @@ Includes JWT authentication, validation, and Swagger documentation.
 3. Create a .env file in the root directory (you can copy from .env.example if provided):
    cp .env.example .env
 
-   Example environment configuration:
-   ----------------------------------
-   PORT=3000
-   NODE_ENV=development
-   DB_HOST=localhost
-   DB_PORT=5432
-   DB_USERNAME=postgres
-   DB_PASSWORD=postgres
-   DB_NAME=task_manager
-   JWT_SECRET=supersecret
-   JWT_EXPIRES_IN=1d
-
 4. Make sure PostgreSQL is installed and running, then create the database:
    createdb task_manager
 
