@@ -11,7 +11,6 @@ Includes JWT authentication, validation, and Swagger documentation.
 
 1. Clone the repository and navigate into it:
    git clone https://github.com/MahmoudRumaneh/TaskManagerAPI
-   cd task-manager-api
 
 2. Install all dependencies:
    npm install
